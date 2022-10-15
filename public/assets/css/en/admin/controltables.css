@@ -1,0 +1,51 @@
+.dashboard-control-table {
+    margin: auto;
+    width: 100%;
+}
+
+.dashboard-control-table td,
+.dashboard-control-table th {
+    text-align: center;
+    border: 3px solid rgba(100, 100, 255, 1);
+    width: 60px;
+}
+
+
+.dashboard-control-table th:last-child,
+.dashboard-control-table td:last-child {
+    min-width: 200px;
+}
+
+.dashboard-control-table tr:first-child {
+    height: 60px;
+}
+
+.dashboard-control-table td a {
+    text-decoration: none;
+}
+
+.admins-table-change-role-form,
+.users-table-make-admin-form,
+.users-table-social-registered {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 1%;
+    padding: 2%;
+    border: 2px solid rgba(100, 100, 200, .7);
+}
+
+.admins-table-controls,
+.users-table-controls {
+    display: grid;
+}
+
+.admins-table-controls {
+    width: 90% !important;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2%;
+}
+
+.users-table-controls {
+    width: 100% !important;
+    grid-template-columns: repeat(2, 1fr);
+}

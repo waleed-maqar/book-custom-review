@@ -1,0 +1,41 @@
+.dashboard-container {
+    border: 5px solid rgba(100, 100, 255, .6);
+    padding: 3%;
+}
+
+.dashboard-card-title {
+    position: relative;
+    display: block;
+    background-color: rgba(100, 100, 200, .4);
+}
+
+.dashboard-users-card,
+.dashboard-books-card,
+.dashboard-reviews-card {
+    margin: 10px;
+    height: 400px;
+    padding: 2%;
+    background-color: rgba(60, 60, 200, .5);
+}
+
+.dashboard-users-card *,
+.dashboard-books-card *,
+.dashboard-reviews-card * {
+    display: block;
+    max-width: 60%;
+    text-decoration: none;
+    color: rgb(20, 20, 140);
+    font-size: 1.5rem;
+}
+
+.dashboard-books-card,
+.dashboard-reviews-card {
+    display: none;
+}
+
+#userUp, #userDown,
+#bookUp, #bookDown,
+#reviewUp, #reviewDown {
+    position: absolute;
+    right: 5%;
+}

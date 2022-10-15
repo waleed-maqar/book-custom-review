@@ -1,0 +1,38 @@
+.main-pagination-container {
+    margin-bottom: 20px;
+}
+
+.No-books-yet {
+    top: 60%;
+}
+
+.user-card {
+    padding: 1%;
+    background-color: rgba(10, 10, 255, .2);
+}
+
+.user-card-image {
+    width: 25%;
+    /* mix-blend-mode: darken; */
+}
+
+.user-card-edit {
+    float: right;
+}
+
+.btn-user-edit {
+    color: rgba(50, 50, 255, .6) !important;
+    font-size: 4rem;
+}
+
+.user-card-edit a:hover,
+.user-card-edit a:active {
+    color: rgba(50, 50, 155, 1) !important;
+}
+
+.user-card-about {
+    padding: 2%;
+    background-color: rgba(50, 50, 255, .2);
+    color: rgb(10, 10, 155);
+    font-size: 1.25rem;
+}

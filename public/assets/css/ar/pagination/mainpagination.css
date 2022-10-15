@@ -1,0 +1,63 @@
+.main-pagination-container {
+    margin: auto;
+    width: 80%;
+    height: 90px;
+    padding: 1% 0;
+    background-color: rgba(200, 200, 255, .8);
+}
+
+.main-pagination-container * {
+    display: inline-block;
+    color: rgb(40, 40, 180);
+}
+
+.main-pagination-next,
+.main-pagination-prev {
+    margin: 10px 20px;
+    width: 40px;
+    font-size: 2rem;
+}
+
+.main-pagination-no-next *,
+.main-pagination-no-prev *,
+.main-pagination-current-page {
+    background-color: transparent !important;
+    border: none !important;
+    color: rgba(150, 150, 150, .5) !important;
+}
+
+.main-pagination-inbetween * {
+    color: rgba(100, 100, 100, 1) !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main-pagination-pages-numbers {
+    padding-top: 1%;
+}
+
+.main-pagination-pages-numbers a,
+.main-pagination-pages-numbers a:hover {
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgba(50, 50, 255, .2);
+    border-radius: 15%;
+    background-color: rgba(10, 10, 200, .2);
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.alert-no-page-records {
+    font-size: 2rem;
+    color: rgb(100, 10, 100);
+}
+
+.alert-no-page-records::before {
+    content: "!";
+    color: red;
+    font-size: 2.5rem;
+}

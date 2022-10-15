@@ -1,0 +1,17 @@
+tr a {
+    color: rgb(40, 40, 55);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.reports-table-action-not-seen {
+    background-color: rgba(55, 55, 200, .4);
+}
+
+.reports-table-action-ignore {
+    background-color: rgba(155, 200, 155, .8);
+}
+
+.reports-table-action-suspend {
+    background-color: rgba(200, 155, 155, .8);
+}

@@ -1,0 +1,48 @@
+.admin-sidebar {
+    grid-area: sidebar;
+    z-index: 9997;
+    position: relative;
+    margin-top: 0px;
+}
+
+.admin-sidebar-container {
+    background-color: rgba(100, 100, 200, .4);
+    width: 100%;
+    padding: 35% 10%;
+}
+
+.sidebar-toggle-btn {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+
+.sidebar-show-btn {
+    display: none;
+    float: left;
+    color: rgba(10, 10, 150, .6);
+    font-size: 3rem;
+}
+
+.sidebar-hide-btn {
+    float: right;
+    color: rgba(10, 10, 150, .6);
+    font-size: 2rem;
+}
+
+.admin-sidebar-link {
+    padding: 5%;
+    background-color: rgba(40, 40, 155, .6);
+}
+
+.admin-sidebar-link:hover {
+    background-color: rgba(40, 40, 155, 1);
+
+}
+
+.admin-sidebar-link a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 1.25rem;
+    font-weight: 900;
+}

@@ -1,0 +1,39 @@
+.book-add-update-form {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.custom-form-group {
+    height: 100% !important;
+}
+
+.custom-form-group input,
+.custom-form-group input:focus,
+.custom-form-group label,
+.custom-form-group textarea,
+.fb-login-btn {
+    color: rgba(50, 50, 255, .8);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#new-author-form {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    padding: 1%;
+    border: 3px solid rgba(50, 50, 255, .8);
+    background-color: rgba(50, 50, 255, .8);
+}
+
+.new-author-form-hide-btn {
+    float: left;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.Create-book-scales {
+    padding: 1%;
+    border: 5px solid gainsboro;
+}

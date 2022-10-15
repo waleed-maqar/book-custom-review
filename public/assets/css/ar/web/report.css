@@ -1,0 +1,39 @@
+.add-report,
+.add-review-report {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    height: 400px;
+    overflow: auto;
+    top: 10%;
+    right: 40%;
+    padding: 1% 2%;
+    background-color: rgba(200, 100, 100, .8);
+    border: 5px solid rgba(255, 50, 50, .4);
+}
+
+.book-report-form-group {
+    display: grid;
+    grid-template-columns: 400px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.book-report-reason,
+.book-report-explain {
+    display: block;
+    font-weight: 900;
+}
+
+.book-report-reason {
+    font-size: 1.1rem;
+}
+
+.book-report-explain {
+    color: rgba(55, 55, 55, 1);
+    font-size: .9rem;
+}
+
+.add-book-report-form-close {
+    font-size: 2rem;
+}

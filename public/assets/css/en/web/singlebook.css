@@ -1,0 +1,84 @@
+.page-header h1 {
+    color: rgba(50, 50, 100, 1);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.book-container {
+    width: 100%;
+}
+
+.book-card {
+    background-color: rgba(10, 10, 200, .1);
+    position: relative;
+    padding: 1%;
+}
+
+.book-card-edit,
+.book-card-send-report {
+    float: right;
+}
+
+.book-card-send-report {
+    cursor: pointer;
+    color: rgba(255, 10, 10, .6);
+    font-size: 3rem;
+}
+
+.book-card-send-report:hover {
+    color: red;
+}
+
+.btn-book-edit {
+    color: rgba(50, 50, 255, .6) !important;
+    font-size: 4rem;
+}
+
+.book-card-edit a:hover,
+.book-card-edit a:active {
+    color: rgba(50, 50, 155, 1) !important;
+}
+
+.book-card-author a,
+.book-card-user a,
+.book-card-cats a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.book-card-author a {
+    color: rgba(10, 10, 155, 1);
+    font-size: 1.25rem;
+}
+
+.book-card-user a {
+    color: rgba(10, 10, 155, .8);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.book-card-cats a {
+    color: rgba(10, 10, 200, .6);
+    font-size: 1.25rem;
+}
+
+.book-card-cats span:last-child {
+    display: none;
+}
+
+.book-card-about {
+    padding: 2%;
+    color: rgba(40, 40, 40, 1);
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-style: oblique;
+}
+
+.book-card-about-seemore,
+.book-card-about-seeless {
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+    color: rgba(0, 100, 255, 1);
+}

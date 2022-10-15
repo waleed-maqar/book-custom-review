@@ -1,0 +1,22 @@
+.book-card-scales {
+    padding: 1%;
+    background-color: rgba(100, 0, 255, .1);
+    ;
+}
+
+.book-card-scales-title {
+    margin: 10px 10px;
+    color: rgb(10, 10, 155);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.book-card-scale-rating {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.book-card-scale-scale {
+    color: rgb(10, 10, 100);
+    font-size: 1.1rem;
+}

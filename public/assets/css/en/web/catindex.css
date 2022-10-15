@@ -1,0 +1,42 @@
+.cats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-gap: 5px;
+}
+
+.main-cat-card {
+    height: 650px;
+    padding: 3%;
+    background-color: rgba(100, 120, 255, .4);
+}
+
+.main-cat-card-title a {
+    color: rgb(50, 50, 200);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.sub-cat-card-title * {
+    text-decoration: none;
+    color: rgb(50, 50, 100);
+    font-size: 1rem;
+}
+
+.sub-cat-card {
+    background-color: rgba(60, 60, 200, .4);
+    padding: 1%;
+}
+
+.sub-cat-card-single-book a {
+    text-decoration: none;
+    color: rgb(40, 40, 100);
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.sub-cat-card-link {
+    text-decoration: none;
+    color: rgba(0, 0, 200, .8);
+    font-size: 1.1rem;
+}

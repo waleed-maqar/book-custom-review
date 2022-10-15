@@ -1,0 +1,43 @@
+:root {
+    --percent: 14px;
+}
+
+.total-rate-stars * {
+    font-size: 2rem;
+}
+
+.total-rate-stars {
+    color: rgba(50, 50, 50, .6);
+}
+
+.rate-star-orange {
+    color: rgb(255, 215, 0);
+}
+
+.half {
+    display: inline-flex;
+}
+
+.half>div:first-child {
+    overflow: hidden;
+    width: var(--percent);
+    z-index: 1;
+    color: rgb(255, 215, 0);
+}
+
+.half>div:last-child {
+    position: relative;
+    margin-right: calc(var(--percent)*-1);
+}
+
+.scale-rate-reset {
+    cursor: pointer;
+    color: rgba(150, 40, 40, .6);
+    font-size: 1rem;
+}
+
+.scale-rate-reseted {
+    color: rgb(255, 215, 0) !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

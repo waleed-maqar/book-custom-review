@@ -1,0 +1,39 @@
+.authors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-gap: 5px;
+}
+
+.author-card {
+    height: 500px;
+    padding: 3%;
+    background-color: rgba(100, 120, 255, .4);
+}
+
+.author-card-title * {
+    color: rgb(50, 50, 200);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.author-card-about {
+    min-height: 80px;
+    background-color: rgba(10, 10, 100, .2);
+    padding: 3%;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.author-card-single-book a {
+    text-decoration: none;
+    color: rgb(40, 40, 100);
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.author-card-show-link {
+    text-decoration: none;
+    color: rgba(0, 0, 200, .8);
+    font-size: 1.1rem;
+}

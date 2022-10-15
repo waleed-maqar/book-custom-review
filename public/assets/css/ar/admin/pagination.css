@@ -1,0 +1,58 @@
+.ajax-pagination-container {
+    width: 800px;
+    height: 50px;
+    background-color: rgba(200, 200, 255, .8);
+}
+
+.ajax-pagination-container * {
+    display: inline-block;
+    color: rgb(40, 40, 180);
+}
+
+.ajax-pagination-next,
+.ajax-pagination-prev {
+    margin: 10px 20px;
+    width: 40px;
+    font-size: 1.25rem;
+}
+
+.ajax-pagination-no-next *,
+.ajax-pagination-no-prev *,
+.ajax-pagination-current-page {
+    cursor: default;
+    background-color: transparent !important;
+    border: none !important;
+    color: rgba(150, 150, 150, .5) !important;
+}
+
+.ajax-pagination-inbetween * {
+    color: rgba(100, 100, 100, 1) !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.ajax-pagination-pages-numbers a,
+.ajax-pagination-pages-numbers a:hover {
+    height: 40px;
+    width: 60px;
+    border: 1px solid rgba(50, 50, 255, .2);
+    border-radius: 10%;
+    background-color: rgba(10, 10, 200, .2);
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.alert-no-page-records {
+    font-size: 1rem;
+    color: rgb(100, 10, 100);
+}
+
+.alert-no-page-records::before {
+    content: "!";
+    color: red;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,78 @@
+.books-container-title {
+    margin: 1% auto;
+    width: 40%;
+    height: 60px;
+    padding: 1%;
+    background-color: rgba(200, 200, 255, .8);
+    color: rgb(100, 100, 200);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.book-card {
+    background-color: rgba(10, 10, 155, .2);
+    color: rgb(40, 40, 255);
+}
+
+.book-card-link {
+    text-decoration: none;
+}
+
+.book-card-image img {
+    width: 80px;
+}
+
+.book-card-title {
+    display: inline-block;
+    color: rgb(0, 0, 100);
+    font-weight: 900;
+}
+
+.book-card-author * {
+    color: rgb(50, 50, 50);
+    font-size: 1.1rem;
+}
+
+.book-card-cats,
+.book-card-cats * {
+    text-decoration: none;
+    color: rgba(10, 10, 255, .8);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.book-card-cats span:last-child {
+    display: none;
+}
+
+.book-card-about {
+    color: rgb(40, 40, 100);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.books-container hr:last-child {
+    display: none;
+}
+
+.No-books-yet {
+    /* position: fixed; */
+    top: 50%;
+    right: 30%;
+    height: 100px;
+    padding: 1% 1%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 50, 50, .6);
+}
+
+.see-more-books {
+    margin-top: 20px;
+}
+
+.see-more-books-link {
+    float: left;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
